@@ -208,6 +208,10 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
+              GoStack Bootcamp RockeSeat (soon)
+            </li>
+            <li>
+              <i className="fa-li fa fa-award text-warning"></i>
               Web Developer certified by IMD-UFRN
             </li>
             <li>
