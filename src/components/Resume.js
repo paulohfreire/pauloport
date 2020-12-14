@@ -4,7 +4,6 @@ const Resume = ({
   firstName,
   lastName,
   address,
-  phone,
   email,
   socialLinks,
   children,
@@ -20,7 +19,7 @@ const Resume = ({
           <span className="text-primary">{lastName}</span>
         </h1>
         <div className="subheading mb-5">
-          {address} · {phone} ·<a href={`mailto:${email}`}>{email}</a>
+          {address} <a href={`mailto:${email}`}>{email}</a>
         </div>
         <p className="lead mb-5">{children}</p>
         <div className="social-icons">

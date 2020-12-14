@@ -29,6 +29,5 @@ module.exports = {
     },
   ],
   email: 'paulo.freire53@gmail.com',
-  phone: '+55-84-999191072',
   address: 'Natal, BR',
 };

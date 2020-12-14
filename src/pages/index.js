@@ -31,72 +31,33 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
-
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <div className="subheading mb-3">
+                Inventarium - Personal Project
+              </div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                I am working to implement, as a co-developer, new features of
+                this solution to change the way of collect nature informations
+                by forest engineers.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">October 2020 - Present</span>
             </div>
           </div>
-
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Administrative assistant</h3>
+              <div className="subheading mb-3">CRQ</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+                I worked in customer service and implementation of routines'
+                manual, mapping procedures and services and application of 5's.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">May 2016 - August 2020</span>
             </div>
           </div>
         </div>
@@ -113,24 +74,38 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Instituto Metrópole Digital</h3>
+              <div className="subheading mb-3">
+                Internet Computer Technician
+              </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">Feb 2020 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">
+                Technische Universität Chemnitz - Germany
+              </h3>
+              <div className="subheading mb-3">Systems Engineering</div>
+              <p>Capes Scholarship - CSF</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">Sep 2014 - Aug 2015</span>
+            </div>
+          </div>
+          <br></br>
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">
+                Universidade Federal do Rio Grande do Norte - UFRN
+              </h3>
+              <div className="subheading mb-3">Production Engineering</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Feb 2009 - Jun 2016</span>
             </div>
           </div>
         </div>
@@ -208,16 +183,16 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+            Apart from being a web developer, I enjoy to run outdoors,
+            especially near the beach. I also like to play guitar with friends
+            in a Rock band. To distract, it's nice read a book or see some film
+            or series. And, just to finish, i'm a big fan of soccer and
+            (American) football.
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            But currently I have dedicated my free time to improve my knowledge
+            as a developer and studied by bootcamps, web development courses and
+            participating as an active member of technology communities.
           </p>
         </div>
       </section>
@@ -226,41 +201,34 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
+        id="certifications"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Certifications</h2>
           <ul className="fa-ul mb-0">
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
+              <i className="fa-li fa fa-award text-warning"></i>
+              Web Developer certified by IMD-UFRN
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
+              <i className="fa-li fa fa-award text-warning"></i>
+              Javascript course certified by IFRS
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
+              <i className="fa-li fa fa-award text-warning"></i>
+              Javascript Tutorial course certified by Sololearn
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
+              <i className="fa-li fa fa-award text-warning"></i>
+              HTML Fundamentals course certified by Sololearn
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
+              <i className="fa-li fa fa-award text-warning"></i>
+              Responsive Web Design certified by FreeCodeCamp
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
+              <i className="fa-li fa fa-award text-warning"></i>
+              Six Sigma Yellow Belt certified by 6sigmastudy
             </li>
           </ul>
         </div>
