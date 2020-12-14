@@ -6,10 +6,6 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-resume/)
 
-## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
-
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
@@ -38,16 +34,16 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'Portfolio Dev', // <title>
   ...
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  firstName: 'Paulo',
+  lastName: 'Freire',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/paulohfreire',
     }
     ...
   ],
