@@ -18,10 +18,10 @@ const IndexPage = () => (
         email={config.email}
         socialLinks={config.socialLinks}
       >
-        I am experienced in leveraging agile frameworks to provide a robust
-        synopsis for high level overviews. Iterative approaches to corporate
-        strategy foster collaborative thinking to further the overall value
-        proposition.
+        Hi! I'm Paulo. Front-end Developer, studying to become a Full-stack
+        developer soon. From Natal/Brazil Interested in working with Front end,
+        and currently learning about ReactJS, NodeJS and Typescript. I'm also an
+        amateur musician and Runner.
       </Resume>
       <hr className="m-0" />
 
@@ -208,7 +208,7 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              GoStack Bootcamp 14 by RockeSeat
+              GoStack Bootcamp 14 by RocketSeat
             </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
