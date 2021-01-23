@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/start-resume/`, // This path is subpath of your hosting https://domain/portfolio
   firstName: 'Paulo',
-  lastName: 'Henrique Freire',
+  lastName: 'Henrique de Oliveira',
   // social
   socialLinks: [
     {
