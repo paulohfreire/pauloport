@@ -30,8 +30,7 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Experiência</h2>
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
+          
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Desenvolvedor de software</h3>
@@ -47,7 +46,8 @@ const IndexPage = () => (
           </div>
         </div>
 
-
+        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Desenvolvedor frontend</h3>
               <div className="subheading mb-3">
                 Inventarium - Projeto pessoal
@@ -181,7 +181,7 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">Hobbies e outros interesses gerais</h2>
+          <h2 className="mb-5">Interesses</h2>
           
           <p className="mb-0">
             Tenho dedicado meu tempo livre para aprimorar meus conhecimentos 
