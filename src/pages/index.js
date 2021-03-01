@@ -18,10 +18,9 @@ const IndexPage = () => (
         email={config.email}
         socialLinks={config.socialLinks}
       >
-        Hi! I'm Paulo. Front-end Developer, studying to become a Full-stack
-        developer soon. From Natal/Brazil Interested in working with Front end,
-        and currently learning about ReactJS, NodeJS and Typescript. I'm also an
-        amateur musician and Runner.
+        Olá, Bem-vindo! Sou Paulo, Desenvolvedor web.
+
+        Acesse minhas redes sociais nos links a seguir:
       </Resume>
       <hr className="m-0" />
 
@@ -30,37 +29,38 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Experiência</h2>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">
-                Inventarium - Personal Project
-              </div>
+            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Desenvolvedor de software</h3>
+              <div className="subheading mb-3">SistemasBR</div>
               <p>
-                I am working to implement, as a co-developer, new features of
-                this solution to change the way of collect nature informations
-                by forest engineers.
+                Atuo como estagiário em uma equipe que desenvolve software baseado em C# para micro e pequenas empresas.
+               
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">October 2020 - Present</span>
-            </div>
-          </div>
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Administrative assistant</h3>
-              <div className="subheading mb-3">CRQ</div>
-              <p>
-                I worked in customer service and implementation of routines'
-                manual, mapping procedures and services and application of 5's.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">May 2016 - August 2020</span>
+              <span className="text-primary">Fev-2021  - Atual</span>
             </div>
           </div>
         </div>
+
+
+              <h3 className="mb-0">Desenvolvedor frontend</h3>
+              <div className="subheading mb-3">
+                Inventarium - Projeto pessoal
+              </div>
+              <p>
+                Atuo como desenvolvedor frontend desse projeto utilizando next, tailwind e typescript.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Outubro 2020 - Atual</span>
+            </div>
+          </div>
+          
       </section>
 
       <hr className="m-0" />
@@ -70,17 +70,17 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">Educação</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Instituto Metrópole Digital</h3>
               <div className="subheading mb-3">
-                Internet Computer Technician
+                Técnico de informática para internet
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Feb 2020 - Present</span>
+              <span className="text-primary">Fev 2020 - Atual</span>
             </div>
           </div>
 
@@ -90,10 +90,10 @@ const IndexPage = () => (
                 Technische Universität Chemnitz - Germany
               </h3>
               <div className="subheading mb-3">Systems Engineering</div>
-              <p>Capes Scholarship - CSF</p>
+              <p>Bolsista Capes - CSF</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Sep 2014 - Aug 2015</span>
+              <span className="text-primary">Set 2014 - Ago 2015</span>
             </div>
           </div>
           <br></br>
@@ -102,10 +102,10 @@ const IndexPage = () => (
               <h3 className="mb-0">
                 Universidade Federal do Rio Grande do Norte - UFRN
               </h3>
-              <div className="subheading mb-3">Production Engineering</div>
+              <div className="subheading mb-3">Engenharia de Produção</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Feb 2009 - Jun 2016</span>
+              <span className="text-primary">Fev 2009 - Jun 2016</span>
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ const IndexPage = () => (
           <h2 className="mb-5">Skills</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Linguagens &amp; ferramentas
           </div>
 
           <ul className="list-inline dev-icons">
@@ -181,18 +181,12 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
-          <p>
-            Apart from being a web developer, I enjoy to run outdoors,
-            especially near the beach. I also like to play guitar with friends
-            in a Rock band. To distract, it's nice read a book or see some film
-            or series. And, just to finish, i'm a big fan of soccer and
-            (American) football.
-          </p>
+          <h2 className="mb-5">Hobbies e outros interesses gerais</h2>
+          
           <p className="mb-0">
-            But currently I have dedicated my free time to improve my knowledge
-            as a developer and studied by bootcamps, web development courses and
-            participating as an active member of technology communities.
+            Tenho dedicado meu tempo livre para aprimorar meus conhecimentos 
+            e participado de bootcamps, cursos de web development courses e discussões 
+            em fóruns e comunidades de tecnologia para me manter atualizado.
           </p>
         </div>
       </section>
@@ -204,35 +198,35 @@ const IndexPage = () => (
         id="certifications"
       >
         <div className="w-100">
-          <h2 className="mb-5">Certifications</h2>
+          <h2 className="mb-5">Certificações</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              GoStack Bootcamp 14 by RocketSeat
+              GoStack Bootcamp 14 da RocketSeat
             </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              Web Developer certified by IMD-UFRN
+              Web Developer certified do IMD-UFRN
             </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              Javascript course certified by IFRS
+              Javascript course certified do IFRS
             </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              Javascript Tutorial course certified by Sololearn
+              Javascript Tutorial course certified do Sololearn
             </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              HTML Fundamentals course certified by Sololearn
+              HTML Fundamentals course certified do Sololearn
             </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              Responsive Web Design certified by FreeCodeCamp
+              Responsive Web Design certified do FreeCodeCamp
             </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              Six Sigma Yellow Belt certified by 6sigmastudy
+              Six Sigma Yellow Belt certified do 6sigmastudy
             </li>
           </ul>
         </div>
