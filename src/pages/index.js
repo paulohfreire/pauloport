@@ -44,15 +44,15 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Fev 2021 - Atual</span>
+              <span className="text-primary">Fev 2021 - Ago 2021</span>
             </div>
           </div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Desenvolvedor Frontend</h3>
-              <div className="subheading mb-3">Inventarium -  Projeto pessoal</div>
+              <div className="subheading mb-3">Merca2Online</div>
               <p>
-                Atuo como desenvolvedor frontend do projeto. 
+                Atuo como desenvolvedor frontend do projeto. Contribui até o momento com a elaboração do manual da marca da startup e Landing page do produto.
               </p>
             </div>
             <div className="resume-date text-md-right">
@@ -182,8 +182,8 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interesses</h2>
           <p>
-            Atualmente tenho me dedicado a cursos e bootcamp para aprimoramento das minhas habilidades em 
-            C# e Typescript, além disso tenho participado ativamente de discussões em comunidades da área.
+            Atualmente tenho me dedicado a cursos e bootcamps para aprimoramento das minhas habilidades em 
+            React, Node e Javascript, além disso tenho participado ativamente de discussões em comunidades da área.
 
           </p>
         </div>
