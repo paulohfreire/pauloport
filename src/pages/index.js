@@ -40,7 +40,7 @@ const IndexPage = () => (
                 SistemasBR
               </div>
               <p>
-                Atuo como estagiário em equipe de desenvolvimento de softwares.
+                Atuei como estagiário em equipe de desenvolvimento de softwares em C#.
               </p>
             </div>
             <div className="resume-date text-md-right">
