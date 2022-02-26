@@ -30,11 +30,24 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Experiência</h2>
+
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Estagiário de desenvolvimento web</h3>
+              <div className="subheading mb-3">
+                Framework Digital
+              </div>
+              <p>
+                Atuação em construção e manutenção de web api em .Net e Frontend com ReactJS.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Nov 2021 - Atual</span>
+            </div>
+          </div>
 
-
-              
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Desenvolvedor de software</h3>
               <div className="subheading mb-3">
                 SistemasBR
@@ -56,7 +69,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Out 2020 - Atual</span>
+              <span className="text-primary">Out 2020 - Jul 2021</span>
             </div>
           </div>
         </div>
@@ -73,13 +86,26 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Faculdade Descomplica</h3>
+              <div className="subheading mb-3">
+                Pós-graduação em Projetos de sistemas de informação
+              </div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Dez 2021 - Nov 2022*</span>
+              <h6>*previsão</h6>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Instituto Metrópole Digital</h3>
               <div className="subheading mb-3">
                 Técnico de informática para internet
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Fev 2020 - Presente</span>
+              <span className="text-primary">Fev 2020 - Nov 2021</span>
             </div>
           </div>
 
@@ -198,6 +224,10 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Certificações</h2>
           <ul className="fa-ul mb-0">
+          <li>
+              <i className="fa-li fa fa-award text-warning"></i>
+              Aplicando Princípios SOLID na prática - Macoratti
+            </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>
               GoStack Bootcamp 14 by RocketSeat
