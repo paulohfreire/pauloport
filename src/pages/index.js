@@ -18,9 +18,7 @@ const IndexPage = () => (
         email={config.email}
         socialLinks={config.socialLinks}
       >
-        Olá, Bem-vindo! Sou Paulo, Desenvolvedor web.
-
-        Acesse minhas redes sociais nos links a seguir:
+        Hi, Welcome! I'm Paulo, Fullstack developer. Follow me:
       </Resume>
       <hr className="m-0" />
 
@@ -29,47 +27,61 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experiência</h2>
+          <h2 className="mb-5">Work experience</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Estagiário de desenvolvimento web</h3>
-              <div className="subheading mb-3">
-                Framework Digital
-              </div>
+              <h3 className="mb-0">Frontend developer</h3>
+              <div className="subheading mb-3">Framework Digital</div>
               <p>
-                Atuação em construção e manutenção de web api em .Net e Frontend com ReactJS.
+                Project configuration and maintenance in javascript and Bryntum
+                component. Gantt chart for aircraft maintenance
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Nov 2021 - Atual</span>
+              <span className="text-primary">Sep 2022 - Dez 2022</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Desenvolvedor de software</h3>
-              <div className="subheading mb-3">
-                SistemasBR
-              </div>
+              <h3 className="mb-0">Frontend developer intern</h3>
+              <div className="subheading mb-3">Framework Digital</div>
               <p>
-                Atuei como estagiário em equipe de desenvolvimento de softwares em C#.
+                I've worked in an agile team in the maintenance of e-commerce
+                web applications using Material ui, Sass, Github, Storybook,
+                AngularJS and Reactjs.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Fev 2021 - Ago 2021</span>
+              <span className="text-primary">Nov 2021 - Ago 2022</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Software developer intern</h3>
+              <div className="subheading mb-3">SistemasBR</div>
+              <p>
+                I worked in an agile team with maintainence and creating new
+                features to a MVC .Net C# project for enterprises.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Feb 2021 - Aug 2021</span>
             </div>
           </div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Desenvolvedor Frontend</h3>
+              <h3 className="mb-0">Frontend developer</h3>
               <div className="subheading mb-3">Merca2Online</div>
               <p>
-                Atuo como desenvolvedor frontend do projeto. Contribui até o momento com a elaboração do manual da marca da startup e Landing page do produto.
+                Contributes to the preparation of the startup brand manual and
+                product landing page made with Javascript, Html and Css.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Out 2020 - Jul 2021</span>
+              <span className="text-primary">Oct 2020 - Jul 2021</span>
             </div>
           </div>
         </div>
@@ -82,18 +94,17 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">Educação</h2>
+          <h2 className="mb-5">Education</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Faculdade Descomplica</h3>
               <div className="subheading mb-3">
-                Pós-graduação em Projetos de sistemas de informação
+                Information Systems Projects Specialization
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Dez 2021 - Nov 2022*</span>
-              <h6>*previsão</h6>
+              <span className="text-primary">Dec 2021 - Nov 2022</span>
             </div>
           </div>
 
@@ -101,11 +112,11 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Instituto Metrópole Digital</h3>
               <div className="subheading mb-3">
-                Técnico de informática para internet
+                Internet Computer Technician
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Fev 2020 - Nov 2021</span>
+              <span className="text-primary">Feb 2020 - Nov 2021</span>
             </div>
           </div>
 
@@ -118,7 +129,7 @@ const IndexPage = () => (
               <p>Capes Scholarship - CSF</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Set 2014 - Ago 2015</span>
+              <span className="text-primary">Sep 2014 - Aug 2015</span>
             </div>
           </div>
           <br></br>
@@ -127,10 +138,10 @@ const IndexPage = () => (
               <h3 className="mb-0">
                 Universidade Federal do Rio Grande do Norte - UFRN
               </h3>
-              <div className="subheading mb-3">Engenharia de produção</div>
+              <div className="subheading mb-3">Production Engineering</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Fev 2009 - Jun 2016</span>
+              <span className="text-primary">Feb 2009 - Jun 2016</span>
             </div>
           </div>
         </div>
@@ -206,11 +217,11 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interesses</h2>
+          <h2 className="mb-5">Interests</h2>
           <p>
-            Atualmente tenho me dedicado a cursos e bootcamps para aprimoramento das minhas habilidades em 
-            React, Node e Javascript, além disso tenho participado ativamente de discussões em comunidades da área.
-
+            Currently I have dedicated myself to courses and bootcamps to
+            improve of my skills in React, Node and Javascript, in addition I
+            have actively participated in discussions in area communities.
           </p>
         </div>
       </section>
@@ -222,11 +233,11 @@ const IndexPage = () => (
         id="certifications"
       >
         <div className="w-100">
-          <h2 className="mb-5">Certificações</h2>
+          <h2 className="mb-5">Certifications</h2>
           <ul className="fa-ul mb-0">
-          <li>
+            <li>
               <i className="fa-li fa fa-award text-warning"></i>
-              Aplicando Princípios SOLID na prática - Macoratti
+              SOLID principles apply - Macoratti
             </li>
             <li>
               <i className="fa-li fa fa-award text-warning"></i>

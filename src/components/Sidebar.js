@@ -10,12 +10,13 @@ export class Sidebar extends Component {
     super(props);
     this.state = {
       tabs: [
-        { content: 'Sobre', href: 'about' },
-        { content: 'Experiência', href: 'experience' },
-        { content: 'Educação', href: 'education' },
+        { content: 'About', href: 'about' },
+        { content: 'Experience', href: 'experience' },
+        { content: 'Education', href: 'education' },
         { content: 'Skills', href: 'skills' },
-        { content: 'Interesses', href: 'interests' },
-        { content: 'Certificados', href: 'certifications' },
+        { content: 'Interests', href: 'interests' },
+        { content: 'Certifications', href: 'certifications' },
+        { content: 'Blog', href: 'https://ph-blog.vercel.app/' },
       ],
       isCollapsed: true,
     };
